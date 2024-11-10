@@ -609,7 +609,7 @@ table.table-custom {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
-.person-item: img {
+.person-item img {
   filter: grayscale(100%);
 }
 .person-item:hover img {
