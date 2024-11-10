@@ -1085,6 +1085,7 @@ table.table-custom {
   font-size: 0.75rem;
   line-height: 1rem;
 }
+
 .font-bold {
   font-weight: 700;
 }
@@ -1295,6 +1296,150 @@ table.table-custom {
   max-width: 899px;
 }
 
+@media (max-width: 640px) {
+  .highlight-subtext {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .invitation-title {
+    font-size: 16px !important;
+    line-height: 24px !important;
+    padding-top: 20px;
+  }
+  .invitation-subtext {
+    font-size: 14px !important;
+    line-height: 24px !important;
+  }
+  #intro {
+    background: transparent;
+  }
+
+  .main-title {
+    background-image: url(/img/bg.webp);
+    background-repeat: no-repeat;
+    background-size: 230%;
+    background-position: center;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    line-height: 32px;
+    justify-content: center;
+    height: 400px;
+  }
+
+  .highlight-subtext {
+    margin-bottom: 20px;
+  }
+
+  .section-header {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+
+  .section-highlight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .program-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .highlight-subtext {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .time-slot {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .program-subtext {
+    max-width: 260px;
+    text-align: center;
+  }
+
+  .ticket-highlight {
+    font-size: 14px !important;
+    line-height: 24px !important;
+    text-align: center !important;
+    max-width: 250px;
+  }
+
+  .register {
+    font-size: 20px !important;
+    line-height: 22px !important;
+  }
+
+  .ticket-ul {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  .bg-gradient-overlay {
+    background: linear-gradient(
+      180deg,
+      #000000 50%,
+      rgba(0, 0, 0, 0) 100%
+    ) !important;
+    left: 2px !important;
+    width: 99% !important;
+  }
+
+  .free-access {
+    margin: 10px 20px;
+    height: 490px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .ticket-img {
+    width: 328px !important;
+    left: 2px !important;
+  }
+
+  .give-back,
+  .give-back-subtext {
+    text-align: center !important;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .crypto-codes {
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .faqs {
+    text-align: center !important;
+  }
+
+  .inward-border-access {
+    box-shadow: none !important;
+  }
+  .ticket-button {
+    font-size: 12px !important;
+    line-height: 18px !important;
+  }
+}
+
+.ticket-button {
+  font-size: 18px;
+  line-height: 24px;
+}
+.faqs {
+  text-align: left;
+}
+
 .invitation-title {
   font-family: "Major Mono Display";
   font-size: 24px;
@@ -1321,6 +1466,9 @@ table.table-custom {
   max-width: 800px;
 }
 .inward-border {
+  box-shadow: inset 0 0 0 2px white; /* Inward shadow with 2px thickness */
+}
+.inward-border-access {
   box-shadow: inset 0 0 0 2px white; /* Inward shadow with 2px thickness */
 }
 
@@ -1452,5 +1600,49 @@ table.table-custom {
 
   .person-item2:nth-child(1) {
     width: 300px;
+  }
+}
+
+#menu-toggle {
+  cursor: pointer;
+}
+
+#mobile-menu {
+  height: 88vh;
+}
+
+.menu {
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive adjustments */
+@media (min-width: 1024px) {
+  /* lg breakpoint */
+  #mobile-menu {
+    display: none;
+  }
+}
+
+.show-mobile {
+  display: none;
+}
+
+/* Show on smaller screens, like mobile */
+@media (max-width: 768px) {
+  /* Adjust as needed */
+  .show-mobile {
+    display: inline;
+  }
+}
+.show-desk {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  /* Adjust as needed */
+  .show-desk {
+    display: inline;
   }
 }
