@@ -1646,3 +1646,6 @@ table.table-custom {
     display: inline;
   }
 }
+.privacy-logo {
+  height: 56px;
+}
