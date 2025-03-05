@@ -19,6 +19,7 @@ Public repository of the code for the 2024 Web3Privacy Now Congress held in Bang
 ## RELEASES
 
 - [v 1.0 - Fresh install from events_web](https://github.com/web3privacy/s25prg/releases/tag/v1.0)
+- [v 1.4 - Final version as of event date](https://github.com/web3privacy/c24bkk/releases/tag/1.4)
  
 ## LICENSE
 
